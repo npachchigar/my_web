@@ -25,7 +25,7 @@ SECRET_KEY = 'h2sllxd=x@7a&c=@pm$ra0&8e*oz@54@$^j)0etk036@ase0mc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['159.203.186.74', 'localhost']
+ALLOWED_HOSTS = ['veggiedietmanagediabetes.xyz', 'www.veggiedietmanagediabetes.xyz', '159.203.186.74', 'localhost']
 
 SITE_ID = 1
 
