@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'taggit',
     'django.contrib.sites',
     'django.contrib.sitemaps',
+    'account.apps.AccountConfig',
     
 ]
 
@@ -82,12 +83,12 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'blogdb',
-        'USER': 'blog_admin',
-        'PASSWORD': '{_4"ss$CCBe/a&].',
-        'HOST': 'localhost',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'USER': 'blog_admin',
+        # 'PASSWORD': '{_4"ss$CCBe/a&].',
+        # 'HOST': 'localhost',
+        # 'PORT': '',
     }
 }
 
